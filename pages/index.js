@@ -13,14 +13,16 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>ランダム一発ギャグ</title>
+        <title>栗松でやんす</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <div className='main'>
+      栗松でやんす
+
+      {/* <div className='main'>
         <p>今日の一発ギャグは...</p>
         {random(rand)}
-      </div>
+      </div> */}
     </div>
   )
 }
